@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  background-color: #f7f7f6;
+  margin: 15%
+}
+.sidebar {
+  display: grid;
+  background-color: #dddddd;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  padding: 1%;
+  list-style-type: none;
+  font-weight: bolder;
+}
+.average, .reviews, .sentiment{
+
+  display: inline-block;
+  background-color: #dddddd;
+  width: 30%;
+
+}
+.right {
+ margin-left: 20px;
+}
+
+.topBar {
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.website {
+  background-color: #dddddd;
+  height: 30vh;
+
+}
+
+.box {
+  background-color: #bfbebd;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 15vh
+}
